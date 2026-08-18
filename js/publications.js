@@ -46,7 +46,7 @@
     '((Sug Hyung Lee[Author]) AND (The Catholic University of Korea[Affiliation])) OR ' +
     '((Chan Kwon Jung[Author]) AND (The Catholic University of Korea[Affiliation]) AND ' +
     '(Department of Pathology[Affiliation])) OR ' +
-    '(("The Catholic University of Korea"[Affiliation]) AND ("Precision Medicine Research Center"[Affiliation]))';
+    '("Precision Medicine Research Center, The Catholic University of Korea"[Affiliation])';
 
   var COUNT = 10;
   var EUTILS = 'https://eutils.ncbi.nlm.nih.gov/entrez/eutils/';
