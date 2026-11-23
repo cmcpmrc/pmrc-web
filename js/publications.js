@@ -47,7 +47,7 @@
     '("Cancer Evolution Research Center"[Affiliation] OR "Department of Pathology"[Affiliation])) OR ' +
     '((Chan Kwon Jung[Author]) AND (The Catholic University of Korea[Affiliation]) AND ' +
     '(Department of Pathology[Affiliation])) OR ' +
-    '("Precision Medicine Research Center"[Affiliation] AND "The Catholic University of Korea"[Affiliation])';
+    '("Precision Medicine Research Center The Catholic University of Korea"[Affiliation:~5])';
 
   var COUNT = 10;
   var EUTILS = 'https://eutils.ncbi.nlm.nih.gov/entrez/eutils/';
